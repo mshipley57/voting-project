@@ -3,5 +3,7 @@ $(document).ready(function() {
 
   if (age >= 18) {
     $('#votingage').show();
+  } else {
+    $('#under18').show();
   }
 });
